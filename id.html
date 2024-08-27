@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b1af1cfa31.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+    <a href="#" class="logo">
+        <img src="/1_ DANMARK (USCG office).jpg" alt="">
+    </a>
+    
+     <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Product">Product</a>
+        <a href="#Review">Review</a>
+        <a href="#Contact">Contact</a>
+        <a href="#Blogs">Blogs</a>
+     </nav>
+     <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+     </div>
+     <div class="search-form">
+        <input type="search" id="search-box" placeholder="Searc here.......">
+        <label for="search-box" class="fas fa-search"></label>
+     </div>
+     <div class="cart-items-container">
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="/1_ DANMARK (USCG office).jpg">
+            <div class="content">
+                <h3>cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="/1_ DANMARK (USCG office).jpg">
+            <div class="content">
+                <h3>cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="/1_ DANMARK (USCG office).jpg">
+            <div class="content">
+                <h3>cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-items">
+            <span class="fas fa-times"></span>
+            <img src="/1_ DANMARK (USCG office).jpg">
+            <div class="content">
+                <h3>cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">Checkout now</a>
+     </div>
+
+    </header>
+
+    <script>
+        let navbar = document.querySelector(".navbar");
+
+        document.querySelector("#menu-btn").onclick = () => {
+            navbar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
